@@ -26,13 +26,14 @@ class Kendriya extends School{         //Single Level- Inheritance
         System.out.println("Football and Cricket, Hockey and many more available");
     }
     public static void main(String[] args){
-        Kendriya Badarpur  = new Kendriya();
+        School Badarpur  = new Kendriya(); 
         Badarpur.dress();
         Badarpur.facilities();
     }
 }
 
-class Classroom{
+class Classroom{   //Multi-level Inheritance
+    //add on more code to practice more
     Classroom(){
         super();
         System.out.println("Total 36 classrooms available");
