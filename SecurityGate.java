@@ -19,7 +19,7 @@ public class SecurityGate {
 
     public static void main(String[] args){
         try {
-            checkPassword("scikit_hchs");
+            checkPassword("scikihs");
         } catch (WeakPasswordException e) {
             System.out.println("Please correct the followings: " + e.getMessage());
         }
