@@ -1,6 +1,10 @@
 import java.sql.*;
 
 public class jdbc{
+
+    void insertion(String name, int age, long enrollment_id){
+        
+    }
     public static void main(String[] args){
         String url = "jdbc:mysql://localhost:3306/try_jdbc";
         String user = "root";

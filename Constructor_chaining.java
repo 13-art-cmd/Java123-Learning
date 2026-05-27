@@ -23,7 +23,7 @@ class Centre{
     }
 }
 
-class Floor{
+class Floor extends Centre{
     Floor(){
         System.out.println("There is only one floor and that is ground floor");
     }

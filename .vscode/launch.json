@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Method_JDBC",
+            "request": "launch",
+            "mainClass": "Method_JDBC",
+            "projectName": "Java123_86dff5a0"
+        },
+        {
+            "type": "java",
             "name": "NameTester",
             "request": "launch",
             "mainClass": "NameTester",
